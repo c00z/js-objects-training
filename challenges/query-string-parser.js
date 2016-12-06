@@ -1,3 +1,19 @@
+
+function parseQueryString(string) {
+  var finalObject = {};
+
+var array= string.split('&');
+
+array.forEach(function(pair) {
+  var k = pair.split('=');
+finalObject[k[0]] = k[1];
+});
+return finalObject;
+}
+
+
+
+
 /*
 
   Create a function `parseQueryString` that accepts a query string parameter as an argument, and
@@ -33,15 +49,3 @@
   //    "d": "10"           // "10" is a String!
   //   }
   ```
-
-  Mega Bonus
-  - Can you create the reverse function? Given an object, output a Query Parameter String:
-
-    ``` javascript
-    var o = {first: "alpha", last: "omega"};
-    convertToQueryParameter(o); // "first=alpha&last=omega";
-    ```
-
-*/
-
-// YOUR CODE HERE
