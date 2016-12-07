@@ -1,27 +1,3 @@
-
-
-function letterCount (word) {
-  var result = {};
-  word = word.split('');
-  console.log(result);
-
-  word.forEach(function(letter) {
-    if(result[letter] === undefined){
-      result[letter] = 1;
-    } else {
-      result[letter] += 1;
-    }
-    console.log(result);
-  })
-}
-
-//  if(result[element] === undefined) {
-
-
-
-
-//  if(countObject[character] === undefined)
-
 /*
 
   Create a function `letterCount` that accepts a string, and finds the number of times each letter
@@ -56,3 +32,18 @@ accepts string and outputs obj, every letter will become a key.
 */
 
 // YOUR CODE HERE
+
+//create a new object to store letter counts
+function letterCount (word) {
+   var result = {};
+   word = word.split('');
+   console.log(result);
+   word.forEach(function(letter){
+      if(result[letter] === undefined) {
+        result[letter] = 1;
+      } else {
+        result[letter] += 1;
+      }
+      console.log(result);
+   })
+}

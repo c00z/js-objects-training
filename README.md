@@ -1,3 +1,11 @@
+Training Reflection
+
+I found this homework to be more challenging than I expected. While the reviews in class made sense to me, the application of them within this assignment did not.
+
+After spending hours on a few of the problems I decided my time could be better spent studying what we learned instead of spending the rest of the night on this.
+
+
+
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Javascript Objects - Problem Set
 
 * Please **Fork & Clone** this repo.

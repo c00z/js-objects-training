@@ -1,5 +1,4 @@
 /*
-
   Create a function `daysUntilDate` that accepts a string (with the format `"mm/dd/yyyy"`) and
   returns the number of days (integer) between today and that date. Please use the built in
   Javascript `Date` type in your solution.
@@ -27,10 +26,19 @@
   //    ]
   ```
 
-  Bonuses
-  - Will your function still work tomorrow when the date is different? Is it future proofed?
-  - To make your output more relevant, can you sort by days remaining (ascending)?
-
 */
 
 // YOUR CODE HERE
+function daysUntilDate(string) {
+  var today = new Date().getTime();
+  var futureDay = new Date(dateString).getTime();
+
+  return Math.round((Math.abs(futureDay - today)/86400000) + "days");
+}
+
+function birthdayReminder(birthdays) {
+  var array = [];
+  birthdays.forEach(function(element.dob) {
+    var birthday
+  }
+}
